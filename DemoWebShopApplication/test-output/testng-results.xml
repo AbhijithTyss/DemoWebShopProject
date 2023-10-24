@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-21T15:48:44 IST" name="Default suite" finished-at="2023-10-21T15:48:54 IST" duration-ms="9657">
+    <groups>
+      <group name="system">
+        <method signature="TC_DWS_002_Test.loginToApp()[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" name="loginToApp" class="login.TC_DWS_002_Test"/>
+      </group> <!-- system -->
+    </groups>
+    <test started-at="2023-10-21T15:48:44 IST" name="Default test" finished-at="2023-10-21T15:48:54 IST" duration-ms="9657">
+      <class name="login.TC_DWS_002_Test">
+        <test-method is-config="true" signature="configReports()[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:44 IST" name="configReports" finished-at="2023-10-21T15:48:44 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configReports -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:44 IST" name="browserSetup" finished-at="2023-10-21T15:48:51 IST" duration-ms="6646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:51 IST" name="login" finished-at="2023-10-21T15:48:53 IST" duration-ms="2084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void login.TC_DWS_002_Test.loginToApp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="loginToApp()[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:53 IST" name="loginToApp" finished-at="2023-10-21T15:48:53 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:53 IST" name="logout" finished-at="2023-10-21T15:48:53 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:53 IST" name="closeBrowser" finished-at="2023-10-21T15:48:54 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:login.TC_DWS_002_Test@71d44a3]" started-at="2023-10-21T15:48:54 IST" name="reportBackup" finished-at="2023-10-21T15:48:54 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- login.TC_DWS_002_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
